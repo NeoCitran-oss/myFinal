@@ -1,0 +1,122 @@
+[
+  {
+    "dataset": "l2_arctic",
+    "model": "xvector",
+    "by_condition": {
+      "read_read": {
+        "eer": 0.06250000000000001,
+        "eer_percent": 6.250000000000002,
+        "threshold": 0.9406744241714478,
+        "num_trials": 144,
+        "num_targets": 24,
+        "num_impostors": 120
+      },
+      "spontaneous_spontaneous": {
+        "eer": 0.022727272727272707,
+        "eer_percent": 2.2727272727272707,
+        "threshold": 0.9749237298965454,
+        "num_trials": 132,
+        "num_targets": 22,
+        "num_impostors": 110
+      },
+      "read_spontaneous": {
+        "eer": 0.08181818181818182,
+        "eer_percent": 8.181818181818182,
+        "threshold": 0.9345484972000122,
+        "num_trials": 132,
+        "num_targets": 22,
+        "num_impostors": 110
+      }
+    }
+  },
+  {
+    "dataset": "l2_arctic",
+    "model": "ecapa",
+    "by_condition": {
+      "read_read": {
+        "eer": 0.0,
+        "eer_percent": 0.0,
+        "threshold": 0.46390965580940247,
+        "num_trials": 144,
+        "num_targets": 24,
+        "num_impostors": 120
+      },
+      "spontaneous_spontaneous": {
+        "eer": 0.004545454545454545,
+        "eer_percent": 0.45454545454545453,
+        "threshold": 0.4320252537727356,
+        "num_trials": 132,
+        "num_targets": 22,
+        "num_impostors": 110
+      },
+      "read_spontaneous": {
+        "eer": 0.0,
+        "eer_percent": 0.0,
+        "threshold": 0.4268317222595215,
+        "num_trials": 132,
+        "num_targets": 22,
+        "num_impostors": 110
+      }
+    }
+  },
+  {
+    "dataset": "svarah",
+    "model": "xvector",
+    "by_condition": {
+      "read_read": {
+        "eer": 0.06090909090909089,
+        "eer_percent": 6.090909090909089,
+        "threshold": 0.944617509841919,
+        "num_trials": 660,
+        "num_targets": 110,
+        "num_impostors": 550
+      },
+      "spontaneous_spontaneous": {
+        "eer": 0.28532110091743124,
+        "eer_percent": 28.532110091743125,
+        "threshold": 0.880727231502533,
+        "num_trials": 654,
+        "num_targets": 109,
+        "num_impostors": 545
+      },
+      "read_spontaneous": {
+        "eer": 0.2509090909090909,
+        "eer_percent": 25.09090909090909,
+        "threshold": 0.9306552410125732,
+        "num_trials": 660,
+        "num_targets": 110,
+        "num_impostors": 550
+      }
+    }
+  },
+  {
+    "dataset": "svarah",
+    "model": "ecapa",
+    "by_condition": {
+      "read_read": {
+        "eer": 0.020909090909090915,
+        "eer_percent": 2.0909090909090917,
+        "threshold": 0.44960007071495056,
+        "num_trials": 660,
+        "num_targets": 110,
+        "num_impostors": 550
+      },
+      "spontaneous_spontaneous": {
+        "eer": 0.1256880733944954,
+        "eer_percent": 12.568807339449538,
+        "threshold": 0.21280863881111145,
+        "num_trials": 654,
+        "num_targets": 109,
+        "num_impostors": 545
+      },
+      "read_spontaneous": {
+        "eer": 0.10545454545454547,
+        "eer_percent": 10.545454545454547,
+        "threshold": 0.21724727749824524,
+        "num_trials": 660,
+        "num_targets": 110,
+        "num_impostors": 550
+      }
+    }
+  }
+]

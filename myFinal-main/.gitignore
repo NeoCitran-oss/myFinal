@@ -1,0 +1,17 @@
+# downloaded audio and HF exports
+data/
+
+# model / dataset cache
+hf_cache/
+
+# generated indices (rebuilt by download scripts)
+indices/
+
+# full eval outputs (keep summary.json)
+results/*
+!results/summary.json
+
+__pycache__/
+*.py[cod]
+.env
+.venv/
